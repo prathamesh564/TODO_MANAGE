@@ -54,7 +54,10 @@ export default function ReviewPage() {
           <Link href="/tasks" className="block px-4 py-2.5 rounded-xl text-slate-400 hover:text-white transition-all">Task List</Link>
           <Link href="/history" className="block px-4 py-2.5 rounded-xl text-slate-400 hover:text-white transition-all">History</Link>
           <Link href="/reviews" className="block px-4 py-2.5 rounded-xl bg-indigo-600 text-white shadow-lg">Reviews</Link>
-        </nav>
+          <Link href="/ProductivityDashboard" className="block px-4 py-2.5 rounded-xl text-slate-400 hover:text-white transition-all">Productivity Dashboard</Link>
+                    <Link href="/flow" className="block px-4 py-2.5 rounded-xl text-slate-400 hover:text-white transition-all">Flow</Link>
+          <Link href="/profile" className="block px-4 py-2.5 rounded-xl text-slate-400 hover:text-white transition-all">Profile</Link>
+            </nav>
       </aside>
 
       <main className="flex-1 overflow-y-auto">

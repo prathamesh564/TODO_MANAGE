@@ -142,8 +142,10 @@ export default function TodoDashboard() {
             <NavLink href="/dashboard" active theme={theme}>Dashboard</NavLink>
             <NavLink href="/tasks" theme={theme}>Task List</NavLink>
             <NavLink href="/history" theme={theme}>History</NavLink>
-            <NavLink href="/profile" theme={theme}>Profile</NavLink>
             <NavLink href="/reviews" theme={theme}>Reviews</NavLink>
+            <NavLink href="/ProductivityDashboard" theme={theme}>Productivity Dashboard</NavLink>
+            <NavLink href="/flow" theme={theme}>Flow</NavLink>
+            <NavLink href="/profile" theme={theme}>Profile</NavLink>
           </nav>
         </aside>
 
